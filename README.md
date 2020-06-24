@@ -1,4 +1,7 @@
 # 项目简介
+## 功能介绍
+数据库大作业，一个简单的个体商户的通用管理系统，将以纯Web页面应用的方式展现。主要功能有管理货物、管理账目、管理收支状况等。
+## 项目安装
 ### windows的wampserver环境下的安装：
 新建文件夹MGMS，把项目中的所有文件放置在文件夹MGMS中，然后将该文件夹放置在wampserver安装目录下的www目录中。然后，需要导入数据库myDB，导入文件为myDB.sql，已附在项目文件中。同时，在导入数据库文件后，需要./php/modify.php中配置连接MySQL数据库的账户和密码。
 网页的登陆入口为：http:localhost/MGMS/index/login.html，默认测试用户的用户名为：root，密码为root。
