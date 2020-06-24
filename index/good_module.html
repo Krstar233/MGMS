@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/good_module.css">
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/good_module.js"></script>
+    <title>货物管理</title>
+</head>
+<body style="padding: 30px;">
+    <div id="wrapper">
+        <h3>货物管理</h3>
+        <div style="height: 27px;">
+            <ul>
+                <li id="search" class="m">查询</li>
+                <li id="in_out">货物出/入库</li>
+                <li id="add">新增数据</li>
+                <li id="update">修改/删除数据</li>
+            </ul>
+        </div>
+        <div id='subtitle'>
+            <span class="change_page" style="float: left; display: none;" id="change_data">确认修改</span>
+            <span id="subtitle_text">查询</span>
+            <span class="change_page" id="next_page">下一页</span>
+            <span class="change_page" id="last_page">上一页</span>
+        </div>
+        <div style="padding: 15px 100px;">
+            <table border="1">
+                <tr>
+                    <td>序号</td>
+                    <td>品名</td>
+                    <td>数量</td>
+                    <td>单位</td>
+                    <td>进价/元</td>
+                    <td>售价/元</td>
+                    <td>备注</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>王老吉凉茶</td>
+                    <td>100</td>
+                    <td>箱</td>
+                    <td>80.00</td>
+                    <td>100.00</td>
+                    <td>特价</td>
+                </tr>
+            </table>
+        </div>
+        <div id="bottom">
+            <span>筛选：</span> <input type="text" id="search_text" style="text-align: left; width: 200px;">
+            <select id="search_type">
+                <option value="name_way">NAME</option>
+                <option value="id_way">ID</option>
+            </select>
+            <button id="reload">刷新</button>
+            <span>共计<span id="data_count">0</span>条数据</span>
+            <span>当前页面:第<span id="page_index">1</span>页/合计<span id="page_count">1</span>页</span>
+            <span style="margin-left: 400px;">排序方式：</span>
+            <select id="sort_way">
+                <option value="id">按序号</option>
+                <option value="name">按品名</option>
+                <option value="nums">按数量</option>
+                <option value="unit">按单位</option>
+                <option value="inprice">按进价</option>
+                <option value="outprice">按售价</option>
+            </select>
+            <span id="order">正序</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    background-color: cornflowerblue;
+}
+li{
+    font-size: 20px;
+    float: left;
+    width: 33.33%;
+    background-color: white;
+}
+li:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
