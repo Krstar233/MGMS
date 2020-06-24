@@ -21,4 +21,4 @@ out_price, decimal(10, 2), 两位小数，长度最高为10，货物的销售价
 position, varchar(255), 货物的来源地或是存储地点
 amount, int(25), 货物的剩余数量
 unit, varchar(20), 货物单位
-remarks, varchar(255), 货物备注, 例如标注其是否为促销产品、产品类别等, 默认为空 
+remarks, varchar(255), 货物备注, 例如标注其是否为促销产品、产品类别等, 默认为空
