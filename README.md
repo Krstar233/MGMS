@@ -1,5 +1,6 @@
 # 功能简介
-    windows的wampserver环境下的安装：新建文件夹MGMS，把项目中的所有文件放置在文件夹MGMS中，然后将该文件夹放置在wampserver安装目录下的www目录中即可。网页的登陆入口为：http:localhost/MGMS/index/login.html
+- windows的wampserver环境下的安装：
+新建文件夹MGMS，把项目中的所有文件放置在文件夹MGMS中，然后将该文件夹放置在wampserver安装目录下的www目录中即可。网页的登陆入口为：http:localhost/MGMS/index/login.html
 ## 登陆页面
 用户可以在这个页面进行账户登陆，同时也可以选择进入注册页面。用户登陆自己的账户，后台会在简单的验证之后跳转到功能页面。
 ## 注册页面
