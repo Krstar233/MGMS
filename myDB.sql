@@ -461,8 +461,5 @@ CREATE TABLE `USER`  (
 -- Records of USER
 -- ----------------------------
 INSERT INTO `USER` VALUES ('root', 'root', 1, 'root');
-INSERT INTO `USER` VALUES ('291315', 'user_2', 2, '12');
-INSERT INTO `USER` VALUES ('123622', 'user_3', 3, '123');
-INSERT INTO `USER` VALUES ('', 'user_4', 4, '');
 
 SET FOREIGN_KEY_CHECKS = 1;
