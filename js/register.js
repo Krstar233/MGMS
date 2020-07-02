@@ -38,7 +38,8 @@ $(function(){
                     alert("该用户名已存在！");
                 }
                 else if (ret.code == 1){
-                    alert("插入成功！");
+                    alert("注册成功！");
+                    window.location.href = "../index/login.html";
                 }else{
                     alert("插入失败！");
                 }
